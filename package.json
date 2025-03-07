@@ -1,0 +1,28 @@
+{
+  "name": "DisNotes",
+  "version": "1.0.0",
+  "description": "Create encrypted notes securely on Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "tailwind": "npx @tailwindcss/cli -i ./public/input.css -o ./public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "spel987",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "4.0.9",
+    "axios": "1.8.1",
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "5.0.1",
+    "express-rate-limit": "^7.5.0",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9",
+    "tailwindcss": "4.0.9"
+  }
+}
